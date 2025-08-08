@@ -1,11 +1,11 @@
 #include <errno.h>
 #include <string.h>
 
-#include "crypto_auth_hmacsha512.h"
-#include "crypto_kdf.h"
-#include "crypto_kdf_hkdf_sha512.h"
-#include "randombytes.h"
-#include "utils.h"
+#include "sodium/crypto_auth_hmacsha512.h"
+#include "sodium/crypto_kdf.h"
+#include "sodium/crypto_kdf_hkdf_sha512.h"
+#include "sodium/randombytes.h"
+#include "sodium/utils.h"
 
 int
 crypto_kdf_hkdf_sha512_extract_init(crypto_kdf_hkdf_sha512_state *state,

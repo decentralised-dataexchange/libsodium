@@ -34,7 +34,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "private/common.h"
+#include "sodium/private/common.h"
 
 #ifdef HAVE_EMMINTRIN_H
 

@@ -21,12 +21,12 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "crypto_pwhash_scryptsalsa208sha256.h"
+#include "sodium/crypto_pwhash_scryptsalsa208sha256.h"
 #include "crypto_scrypt.h"
-#include "private/common.h"
-#include "randombytes.h"
-#include "runtime.h"
-#include "utils.h"
+#include "sodium/private/common.h"
+#include "sodium/randombytes.h"
+#include "sodium/runtime.h"
+#include "sodium/utils.h"
 
 static const char *const itoa64 =
     "./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";

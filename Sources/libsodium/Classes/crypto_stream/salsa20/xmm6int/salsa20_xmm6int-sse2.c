@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "crypto_stream_salsa20.h"
-#include "private/common.h"
-#include "utils.h"
+#include "sodium/crypto_stream_salsa20.h"
+#include "sodium/private/common.h"
+#include "sodium/utils.h"
 
 #ifdef HAVE_EMMINTRIN_H
 

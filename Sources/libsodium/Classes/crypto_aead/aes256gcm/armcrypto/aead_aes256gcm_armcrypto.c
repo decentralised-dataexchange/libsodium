@@ -4,14 +4,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "core.h"
-#include "crypto_aead_aes256gcm.h"
-#include "crypto_verify_16.h"
-#include "export.h"
-#include "private/common.h"
-#include "randombytes.h"
-#include "runtime.h"
-#include "utils.h"
+#include "sodium/core.h"
+#include "sodium/crypto_aead_aes256gcm.h"
+#include "sodium/crypto_verify_16.h"
+#include "sodium/export.h"
+#include "sodium/private/common.h"
+#include "sodium/randombytes.h"
+#include "sodium/runtime.h"
+#include "sodium/utils.h"
 
 #if defined(HAVE_ARMCRYPTO) && defined(__clang__) && defined(NATIVE_LITTLE_ENDIAN)
 

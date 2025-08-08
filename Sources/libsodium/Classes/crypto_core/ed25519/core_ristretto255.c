@@ -1,12 +1,12 @@
 
 #include <stdint.h>
 
-#include "crypto_core_ed25519.h"
-#include "crypto_core_ristretto255.h"
-#include "private/common.h"
-#include "private/ed25519_ref10.h"
-#include "randombytes.h"
-#include "utils.h"
+#include "sodium/crypto_core_ed25519.h"
+#include "sodium/crypto_core_ristretto255.h"
+#include "sodium/private/common.h"
+#include "sodium/private/ed25519_ref10.h"
+#include "sodium/randombytes.h"
+#include "sodium/utils.h"
 
 int
 crypto_core_ristretto255_is_valid_point(const unsigned char *p)

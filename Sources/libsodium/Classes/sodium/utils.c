@@ -49,9 +49,9 @@ void *alloca (size_t);
 # endif
 #endif
 
-#include "core.h"
-#include "randombytes.h"
-#include "utils.h"
+#include "sodium/core.h"
+#include "sodium/randombytes.h"
+#include "sodium/utils.h"
 
 #ifndef ENOSYS
 # define ENOSYS ENXIO

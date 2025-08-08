@@ -7,7 +7,7 @@
 #include <string.h>
 
 #include "blake2.h"
-#include "private/common.h"
+#include "sodium/private/common.h"
 
 #if defined(HAVE_AVX2INTRIN_H) && defined(HAVE_EMMINTRIN_H) && \
     defined(HAVE_TMMINTRIN_H) && defined(HAVE_SMMINTRIN_H)

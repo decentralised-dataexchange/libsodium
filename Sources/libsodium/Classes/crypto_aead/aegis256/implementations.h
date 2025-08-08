@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "crypto_aead_aegis256.h"
+#include "sodium/crypto_aead_aegis256.h"
 
 typedef struct aegis256_implementation {
     int (*encrypt_detached)(uint8_t *c, uint8_t *mac, size_t maclen, const uint8_t *m, size_t mlen,

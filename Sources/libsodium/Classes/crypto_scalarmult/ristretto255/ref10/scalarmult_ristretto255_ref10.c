@@ -1,10 +1,10 @@
 
 #include <string.h>
 
-#include "crypto_scalarmult_ed25519.h"
-#include "crypto_scalarmult_ristretto255.h"
-#include "private/ed25519_ref10.h"
-#include "utils.h"
+#include "sodium/crypto_scalarmult_ed25519.h"
+#include "sodium/crypto_scalarmult_ristretto255.h"
+#include "sodium/private/ed25519_ref10.h"
+#include "sodium/utils.h"
 
 int
 crypto_scalarmult_ristretto255(unsigned char *q, const unsigned char *n,

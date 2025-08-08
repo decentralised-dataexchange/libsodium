@@ -2,12 +2,12 @@
 #include <errno.h>
 #include <stdlib.h>
 
-#include "core.h"
-#include "crypto_aead_aegis128l.h"
-#include "private/common.h"
-#include "private/implementations.h"
-#include "randombytes.h"
-#include "runtime.h"
+#include "sodium/core.h"
+#include "sodium/crypto_aead_aegis128l.h"
+#include "sodium/private/common.h"
+#include "sodium/private/implementations.h"
+#include "sodium/randombytes.h"
+#include "sodium/runtime.h"
 
 #include "aegis128l_soft.h"
 

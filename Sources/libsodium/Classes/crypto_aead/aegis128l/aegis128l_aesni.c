@@ -4,14 +4,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "core.h"
-#include "crypto_aead_aegis128l.h"
-#include "crypto_verify_16.h"
-#include "crypto_verify_32.h"
-#include "export.h"
-#include "utils.h"
+#include "sodium/core.h"
+#include "sodium/crypto_aead_aegis128l.h"
+#include "sodium/crypto_verify_16.h"
+#include "sodium/crypto_verify_32.h"
+#include "sodium/export.h"
+#include "sodium/utils.h"
 
-#include "private/common.h"
+#include "sodium/private/common.h"
 
 #if defined(HAVE_AVXINTRIN_H) && defined(HAVE_WMMINTRIN_H)
 

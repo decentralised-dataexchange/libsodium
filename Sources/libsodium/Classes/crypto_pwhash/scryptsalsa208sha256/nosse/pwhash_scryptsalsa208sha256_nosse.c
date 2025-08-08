@@ -36,7 +36,7 @@
 
 #include "../crypto_scrypt.h"
 #include "../pbkdf2-sha256.h"
-#include "private/common.h"
+#include "sodium/private/common.h"
 
 static inline void
 blkcpy(uint32_t *dest, const uint32_t *src, size_t len)

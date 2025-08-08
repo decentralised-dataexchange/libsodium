@@ -17,7 +17,7 @@
 
 #include "argon2-core.h"
 #include "argon2.h"
-#include "private/common.h"
+#include "sodium/private/common.h"
 
 #if defined(HAVE_AVX512FINTRIN_H) && defined(HAVE_AVX2INTRIN_H) && \
     defined(HAVE_EMMINTRIN_H) &&  defined(HAVE_TMMINTRIN_H) && defined(HAVE_SMMINTRIN_H)

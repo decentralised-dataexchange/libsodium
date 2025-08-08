@@ -20,8 +20,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "crypto_generichash_blake2b.h"
-#include "export.h"
+#include "sodium/crypto_generichash_blake2b.h"
+#include "sodium/export.h"
 
 enum blake2b_constant {
     BLAKE2B_BLOCKBYTES    = 128,

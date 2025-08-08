@@ -17,8 +17,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "randombytes.h"
-#include "utils.h"
+#include "sodium/randombytes.h"
+#include "sodium/utils.h"
 
 #include "argon2-core.h"
 #include "argon2-encoding.h"

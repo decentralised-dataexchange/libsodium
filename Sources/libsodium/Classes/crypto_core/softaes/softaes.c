@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "private/common.h"
-#include "private/softaes.h"
+#include "sodium/private/common.h"
+#include "sodium/private/softaes.h"
 
 uint32_t _aes_lut[256] __attribute__ ((visibility ("hidden"))) = {
     0xa56363c6, 0x847c7cf8, 0x997777ee, 0x8d7b7bf6, 0x0df2f2ff, 0xbd6b6bd6, 0xb16f6fde, 0x54c5c591,
